@@ -1,6 +1,10 @@
 .outer {
   height: 100vh;
-  overflow-y: scroll;
+  overflow-y: hidden;
+}
+
+body {
+  overflow-y: hidden;
 }
 
 .outer::-webkit-scrollbar {
